@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/condimentv1"
+        android:paddingTop="90dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="80dp" />
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/ic_person_edtxt"
+        android:hint="@string/username"
+        android:textColorHint="@color/white"
+        android:background="@drawable/bg_edttxt"
+        android:inputType="text"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/ic_person_edtxt"
+        />
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:layout_margin="6dp"
+        android:background="@drawable/bg_edttxt"
+        android:drawableStart="@drawable/ic_pasword"
+        android:drawableLeft="@drawable/ic_pasword"
+        android:hint="@string/password"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:drawablePadding="15dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bbutton"
+        android:text="Login"
+        android:padding="15dp"
+        android:layout_margin="6dp"
+        />
+
+</LinearLayout>

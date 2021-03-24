@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kalkulatorsederhana">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kalkulatorsederhana"
+        android:gravity="center"
+        android:paddingTop="40dp"
+        android:textSize="20dp"
+        style="@style/Base.CardView"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="40dp"
+        />
+    <EditText
+    android:id="@+id/angka1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:background="@drawable/bg_caledtx"
+    android:padding="6dp"
+    android:hint="Angka Pertama"
+    android:inputType="number"
+    android:textAlignment="center"
+    android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/angka2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:background="@drawable/bg_caledtx"
+        android:padding="6dp"
+        android:hint="Angka Kedua"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bg_kali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/bg_buttoncal"
+        android:text="Hasil Kali"
+        android:textAllCaps="false"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bg_kurang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/bg_buttoncal"
+        android:text="Hasil Kurang"
+        android:textAllCaps="false"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bg_bagi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/bg_buttoncal"
+        android:text="Hasil bagi"
+        android:textAllCaps="false"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bg_tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/bg_buttoncal"
+        android:text="Hasil Tambah"
+        android:textAllCaps="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="HASIL"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginBottom="40dp"
+        />
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30dp"
+        />
+
+</LinearLayout>
